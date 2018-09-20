@@ -1,3 +1,4 @@
+
 // var str : string = "Sample string";
 // str = 100;
 
@@ -43,4 +44,20 @@
 // }
 // demo([1,2,3,4]);        //FLASHING...
 
+//Class
 
+//Module System
+
+import { Student, MAGIC_NUMBER } from './student';
+import { Person } from './model/person';
+
+let obj : Person = {
+    firstName : "Foo",
+    lastName : "Bar",
+    age : 35
+}
+
+let foo = new Student(obj);
+console.log(foo.getFullName());
+
+console.log(MAGIC_NUMBER);
